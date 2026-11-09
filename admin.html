@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#0d070e"><title>Admin | Arté By Ayesha</title>
+<link rel="icon" href="assets/images/favicon-64.png">
+<style>
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,sans-serif;background:#f6eff3;color:#2a1a28}
+header{background:#0d070e;color:#f7b2cd;padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between;border-bottom:3px solid #d9a84a}
+header strong{display:flex;align-items:center;gap:10px;font:600 1.1rem Georgia,serif}header img{height:38px;width:auto}
+main{max-width:1100px;margin:0 auto;padding:16px}button,input,select,textarea{font:inherit}
+button{min-height:40px;padding:0 16px;border-radius:8px;border:1px solid #7b2a63;background:#fff;color:#7b2a63;cursor:pointer}
+button.p{background:linear-gradient(135deg,#a23a82,#ee5b9d);border-color:transparent;color:#fff}button.d{color:#b3261e;border-color:#b3261e}
+input,select,textarea{width:100%;padding:9px 10px;border:1px solid #d6c3d0;border-radius:8px;background:#fff;color:#2a1a28}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}.tabs button[aria-pressed=true]{background:#7b2a63;color:#fff}
+.card{background:#fff;border-radius:12px;padding:16px;box-shadow:0 2px 10px rgba(60,20,50,.08);margin-bottom:14px}
+table{width:100%;border-collapse:collapse;font-size:.88rem}th,td{text-align:left;padding:8px;border-bottom:1px solid #eee;vertical-align:top;max-width:220px;overflow:hidden;text-overflow:ellipsis}
+.wrapx{overflow-x:auto}.row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}.login{max-width:360px;margin:60px auto}
+dialog{border:0;border-radius:14px;padding:0;width:min(560px,94vw);max-height:92vh}dialog form{padding:18px;display:grid;gap:10px}
+label{display:grid;gap:4px;font-size:.82rem;font-weight:600}.err{color:#b3261e}.ok{color:#2f7a4b}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.stat{background:#fbf3f8;border-radius:10px;padding:12px;border:1px solid #efd9e6}.stat b{font-size:1.6rem;display:block;color:#7b2a63}.hint{color:#76607a;font-size:.82rem}
+.pill{display:inline-block;padding:1px 10px;border-radius:999px;font-size:.75rem;background:#fde7f1;color:#a23a82}.pill.done{background:#e1f5e9;color:#2f7a4b}
+.req{white-space:pre-line}
+</style></head>
+<body>
+<header><strong><img src="assets/images/logo-small.png" alt="">Arté By Ayesha &middot; Admin</strong><span id="who"><button id="logout" hidden>Log out</button></span></header>
+<main id="app"></main>
+<dialog id="dlg"><form id="dform" method="dialog"></form></dialog>
+<script src="assets/js/config.js"></script><script src="assets/js/api.js"></script><script src="assets/js/admin.js"></script>
+</body></html>

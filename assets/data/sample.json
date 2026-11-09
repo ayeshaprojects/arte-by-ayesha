@@ -1,0 +1,344 @@
+{
+ "ok": true,
+ "data": {
+  "settings": {
+   "Brand_Name": "Arté By Ayesha",
+   "Artist_Name": "Ayesha Parveen",
+   "Tagline": "Where colours speak the words the heart can’t say.",
+   "Hero_Eyebrow": "Handmade art • Custom commissions",
+   "Hero_Primary_Text": "Order a Commission",
+   "Logo_ID": "assets/images/logo.png",
+   "Favicon_ID": "assets/images/favicon-64.png",
+   "Hero_Image_ID": "",
+   "Profile_Image_ID": "assets/images/art/ayesha-parveen.jpg",
+   "Site_URL": "https://YOUR-GITHUB-USERNAME.github.io/arte-by-ayesha/",
+   "Meta_Description": "Arté By Ayesha: handmade paintings and custom commissions by Ayesha Parveen. Where colours speak the words the heart can’t say.",
+   "About_Heading": "Hello, I’m Ayesha Parveen",
+   "About_Introduction": "I am a passionate painter who believes every canvas carries a story. Through colour, texture and emotion, I turn feelings, memories and imagination into art that you can hang on your wall and feel in your heart. From soft watercolours to bold acrylics, each piece I create is handmade with patience, love and a little bit of magic.",
+   "About_Details": "Welcome to Arté By Ayesha – browse my paintings, see my past commission work, and let’s create something beautiful together just for you.",
+   "About_Journey": "",
+   "About_Interests": "",
+   "About_Specialities": "Acrylic Painting, Fine Liner Illustration, Color Marker Art",
+   "About_Philosophy": "",
+   "About_Achievements": "",
+   "Paintings_Title": "My Paintings",
+   "Paintings_Subtitle": "A collection of my original artworks",
+   "Commission_Title": "Commission Work",
+   "Commission_Subtitle": "Special pieces I created for my clients",
+   "Commission_Category": "Commission Work",
+   "Nav_Paintings_Label": "Paintings",
+   "Nav_Commission_Label": "Commission Work",
+   "Services_Title": "Services",
+   "Products_Title": "Products",
+   "Contact_Title": "Contact & Commission Request",
+   "Contact_Subtitle": "Want a painting made just for you? Fill in the details below.",
+   "Commission_Types": "Portrait, Calligraphy, Floral, Landscape, Custom Design",
+   "Commission_Sizes": "A4, A5, A3, A2, Custom size",
+   "Email": "your-email@example.com",
+   "Phone": "",
+   "WhatsApp": "",
+   "Contact_Form_URL": "",
+   "Location": "",
+   "Register_Button_Text": "REGISTER NOW",
+   "Register_Button_URL": "https://forms.gle/REPLACE_WITH_YOUR_GOOGLE_FORM",
+   "Register_Button_Status": "Active",
+   "Register_Button_Target": "_blank",
+   "Footer_Text": "Handmade art • Custom commissions",
+   "Copyright_Text": "© 2026 Ayesha Parveen. All rights reserved.",
+   "Theme_Colour": "#ee5b9d",
+   "Website_Announcement": ""
+  },
+  "artwork": [
+   {
+    "Artwork_ID": "ART-001",
+    "Title": "Crimson & Checks",
+    "Category": "Paintings",
+    "Image_ID": "assets/images/art/crimson-and-checks.jpg",
+    "Description": "",
+    "Medium": "",
+    "Dimensions": "",
+    "Year": "",
+    "Availability": "",
+    "Featured": "Yes",
+    "Display_Order": 1,
+    "Status": "Published",
+    "Created_At": "2026-11-01T00:00:00.000Z"
+   },
+   {
+    "Artwork_ID": "ART-002",
+    "Title": "Riverside Tulips",
+    "Category": "Paintings",
+    "Image_ID": "",
+    "Description": "",
+    "Medium": "",
+    "Dimensions": "",
+    "Year": "",
+    "Availability": "",
+    "Featured": "No",
+    "Display_Order": 2,
+    "Status": "Published",
+    "Created_At": "2026-11-02T00:00:00.000Z"
+   },
+   {
+    "Artwork_ID": "ART-003",
+    "Title": "Rosé Reverie",
+    "Category": "Paintings",
+    "Image_ID": "assets/images/art/rose-reverie.jpg",
+    "Description": "",
+    "Medium": "",
+    "Dimensions": "",
+    "Year": "",
+    "Availability": "",
+    "Featured": "Yes",
+    "Display_Order": 3,
+    "Status": "Published",
+    "Created_At": "2026-11-03T00:00:00.000Z"
+   },
+   {
+    "Artwork_ID": "ART-004",
+    "Title": "Where Faith Blooms",
+    "Category": "Commission Work",
+    "Image_ID": "assets/images/art/where-faith-blooms.jpg",
+    "Description": "",
+    "Medium": "",
+    "Dimensions": "",
+    "Year": "",
+    "Availability": "",
+    "Featured": "No",
+    "Display_Order": 4,
+    "Status": "Published",
+    "Created_At": "2026-11-04T00:00:00.000Z"
+   },
+   {
+    "Artwork_ID": "ART-005",
+    "Title": "Golden Verses",
+    "Category": "Commission Work",
+    "Image_ID": "assets/images/art/golden-verses.jpg",
+    "Description": "",
+    "Medium": "",
+    "Dimensions": "",
+    "Year": "",
+    "Availability": "",
+    "Featured": "No",
+    "Display_Order": 5,
+    "Status": "Published",
+    "Created_At": "2026-11-05T00:00:00.000Z"
+   },
+   {
+    "Artwork_ID": "ART-006",
+    "Title": "The Price of Becoming",
+    "Category": "Commission Work",
+    "Image_ID": "assets/images/art/the-price-of-becoming.jpg",
+    "Description": "",
+    "Medium": "",
+    "Dimensions": "",
+    "Year": "",
+    "Availability": "",
+    "Featured": "No",
+    "Display_Order": 6,
+    "Status": "Published",
+    "Created_At": "2026-11-06T00:00:00.000Z"
+   }
+  ],
+  "categories": [
+   {
+    "Category_ID": "CAT-001",
+    "Category_Name": "Paintings",
+    "Description": "Original paintings",
+    "Display_Order": 1,
+    "Status": "Active",
+    "Filter_Type": "category"
+   },
+   {
+    "Category_ID": "CAT-002",
+    "Category_Name": "Acrylic Paintings",
+    "Description": "Original acrylic work",
+    "Display_Order": 2,
+    "Status": "Active",
+    "Filter_Type": "category"
+   },
+   {
+    "Category_ID": "CAT-003",
+    "Category_Name": "Fine Liner Illustrations",
+    "Description": "Detailed pen and fine liner artwork",
+    "Display_Order": 3,
+    "Status": "Active",
+    "Filter_Type": "category"
+   },
+   {
+    "Category_ID": "CAT-004",
+    "Category_Name": "Color Marker Art",
+    "Description": "Vibrant marker illustrations",
+    "Display_Order": 4,
+    "Status": "Active",
+    "Filter_Type": "category"
+   },
+   {
+    "Category_ID": "CAT-005",
+    "Category_Name": "Featured Artwork",
+    "Description": "Hand-picked favourites",
+    "Display_Order": 5,
+    "Status": "Active",
+    "Filter_Type": "featured"
+   },
+   {
+    "Category_ID": "CAT-006",
+    "Category_Name": "Latest Creations",
+    "Description": "Newest additions",
+    "Display_Order": 6,
+    "Status": "Active",
+    "Filter_Type": "latest"
+   }
+  ],
+  "services": [
+   {
+    "Service_ID": "SRV-001",
+    "Title": "Custom Acrylic Painting",
+    "Image_ID": "",
+    "Description": "A painting made around your idea, colours and size.",
+    "Price": "",
+    "Enquiry_URL": "",
+    "Display_Order": 1,
+    "Status": "Active"
+   },
+   {
+    "Service_ID": "SRV-002",
+    "Title": "Fine Liner Illustration",
+    "Image_ID": "",
+    "Description": "Detailed line illustrations drawn by hand.",
+    "Price": "",
+    "Enquiry_URL": "",
+    "Display_Order": 2,
+    "Status": "Active"
+   },
+   {
+    "Service_ID": "SRV-003",
+    "Title": "Color Marker Artwork",
+    "Image_ID": "",
+    "Description": "Bright, expressive marker artwork.",
+    "Price": "",
+    "Enquiry_URL": "",
+    "Display_Order": 3,
+    "Status": "Active"
+   },
+   {
+    "Service_ID": "SRV-004",
+    "Title": "Custom Art Commissions",
+    "Image_ID": "",
+    "Description": "Want a painting made just for you? Share your idea with me.",
+    "Price": "",
+    "Enquiry_URL": "",
+    "Display_Order": 4,
+    "Status": "Active"
+   },
+   {
+    "Service_ID": "SRV-005",
+    "Title": "Personalized Artwork",
+    "Image_ID": "",
+    "Description": "Art made for a name, a date or a memory.",
+    "Price": "",
+    "Enquiry_URL": "",
+    "Display_Order": 5,
+    "Status": "Active"
+   },
+   {
+    "Service_ID": "SRV-006",
+    "Title": "Creative Art Projects",
+    "Image_ID": "",
+    "Description": "Bigger creative projects and collaborations.",
+    "Price": "",
+    "Enquiry_URL": "",
+    "Display_Order": 6,
+    "Status": "Active"
+   }
+  ],
+  "products": [],
+  "social-links": [],
+  "footer-navigation": [
+   {
+    "ID": "FTR-001",
+    "Title": "Home",
+    "URL": "#home",
+    "Link_Type": "internal",
+    "Target": "_self",
+    "Section_Name": "Explore",
+    "Display_Order": 1,
+    "Status": "Active"
+   },
+   {
+    "ID": "FTR-005",
+    "Title": "Contact",
+    "URL": "#contact",
+    "Link_Type": "internal",
+    "Target": "_self",
+    "Section_Name": "Get in touch",
+    "Display_Order": 1,
+    "Status": "Active"
+   },
+   {
+    "ID": "FTR-002",
+    "Title": "About",
+    "URL": "#about",
+    "Link_Type": "internal",
+    "Target": "_self",
+    "Section_Name": "Explore",
+    "Display_Order": 2,
+    "Status": "Active"
+   },
+   {
+    "ID": "FTR-006",
+    "Title": "Order a Commission",
+    "URL": "#contact",
+    "Link_Type": "internal",
+    "Target": "_self",
+    "Section_Name": "Get in touch",
+    "Display_Order": 2,
+    "Status": "Active"
+   },
+   {
+    "ID": "FTR-003",
+    "Title": "Paintings",
+    "URL": "#gallery",
+    "Link_Type": "internal",
+    "Target": "_self",
+    "Section_Name": "Explore",
+    "Display_Order": 3,
+    "Status": "Active"
+   },
+   {
+    "ID": "FTR-007",
+    "Title": "Registration",
+    "URL": "https://forms.gle/REPLACE_WITH_YOUR_GOOGLE_FORM",
+    "Link_Type": "external",
+    "Target": "_blank",
+    "Section_Name": "Get in touch",
+    "Display_Order": 3,
+    "Status": "Active"
+   },
+   {
+    "ID": "FTR-004",
+    "Title": "Commission Work",
+    "URL": "#commissions",
+    "Link_Type": "internal",
+    "Target": "_self",
+    "Section_Name": "Explore",
+    "Display_Order": 4,
+    "Status": "Active"
+   }
+  ],
+  "gallery-featured": [
+   {
+    "ID": "GFT-001",
+    "Artwork_ID": "ART-001",
+    "Display_Order": 1,
+    "Status": "Active"
+   },
+   {
+    "ID": "GFT-002",
+    "Artwork_ID": "ART-003",
+    "Display_Order": 2,
+    "Status": "Active"
+   }
+  ]
+ }
+}

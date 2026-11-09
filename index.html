@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Arté By Ayesha | Handmade Paintings &amp; Custom Commissions</title>
+<meta name="description" content="Arté By Ayesha: handmade paintings and custom commissions by Ayesha Parveen. Where colours speak the words the heart can’t say.">
+<meta name="theme-color" content="#0d070e">
+<!-- CONFIG: replace the canonical URL with your GitHub Pages address (see SETUP_GUIDE.md) -->
+<link rel="canonical" href="https://YOUR-GITHUB-USERNAME.github.io/arte-by-ayesha/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Arté By Ayesha">
+<meta property="og:title" content="Arté By Ayesha | Handmade Paintings &amp; Custom Commissions">
+<meta property="og:description" content="Where colours speak the words the heart can’t say.">
+<meta property="og:image" content="assets/images/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Arté By Ayesha">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" id="favicon" type="image/png" href="assets/images/favicon-64.png">
+<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script type="application/ld+json" id="ld-json">{"@context":"https://schema.org","@type":"Person","name":"Ayesha Parveen","jobTitle":"Artist","brand":{"@type":"Brand","name":"Arté By Ayesha"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div id="announce" class="announce" hidden></div>
+<div id="offline-bar" class="offline-bar" hidden>You’re offline. Showing the last saved content.</div>
+
+<header class="site-header" id="top">
+  <div class="wrap header-in">
+    <a class="brand" href="#home" aria-label="Home">
+      <img id="logo-img" class="logo" alt="" hidden width="48" height="48">
+      <span id="brand-text" class="brand-text">Arté By Ayesha</span>
+    </a>
+    <nav id="nav" class="nav" aria-label="Main">
+      <a href="#home" data-section="home">Home</a>
+      <a href="#about" data-section="about">About</a>
+      <a href="#gallery" data-section="gallery" id="nav-gallery">Paintings</a>
+      <a href="#commissions" data-section="commissions" id="nav-commissions">Commission Work</a>
+      <a href="#services" data-section="services">Services</a>
+      <a href="#products" data-section="products">Products</a>
+      <a href="#contact" data-section="contact">Contact</a>
+      <a class="btn btn-gold js-register nav-register" href="#" hidden>REGISTER NOW</a>
+      <button class="btn btn-ghost js-install nav-install" type="button" hidden>Install app</button>
+    </nav>
+    <a class="btn btn-gold btn-sm js-register header-register" href="#" hidden>REGISTER NOW</a>
+    <button id="menu-btn" class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+  <section id="home" class="hero" aria-labelledby="hero-title">
+    <div class="hero-bg" id="hero-bg"></div>
+    <div class="wrap hero-in">
+      <div class="hero-copy">
+        <p id="hero-eyebrow" class="eyebrow">Handmade art • Custom commissions</p>
+        <h1 id="hero-title">Arté By Ayesha</h1>
+        <p id="hero-tag" class="hero-tag"></p>
+        <div class="hero-actions">
+          <a id="hero-primary" class="btn btn-primary" href="#contact">Order a Commission</a>
+          <a class="btn btn-ghost" href="#gallery">Explore My Art</a>
+          <a class="btn btn-gold btn-big js-register" href="#" hidden>REGISTER NOW</a>
+        </div>
+      </div>
+      <div class="hero-art"><img id="hero-logo" class="hero-logo" alt="Arté By Ayesha logo" hidden width="520" height="520"></div>
+    </div>
+  </section>
+
+  <section id="about" class="section" aria-labelledby="about-h">
+    <div class="wrap">
+      <div class="sec-head"><h2 id="about-h">About Me</h2></div>
+      <div class="about">
+        <div class="about-img"><img id="about-img" alt="Portrait of the artist" loading="lazy" decoding="async" width="400" height="500"></div>
+        <div class="about-text">
+          <h3 id="about-heading">Hello, I’m Ayesha Parveen</h3>
+          <p id="about-intro" class="lead"></p>
+          <p id="about-details"></p>
+          <div id="about-blocks" class="about-blocks"></div>
+          <ul id="about-specs" class="chips"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section alt" aria-labelledby="gallery-h">
+    <div class="wrap">
+      <div class="sec-head"><h2 id="gallery-h">My Paintings</h2><p id="gallery-sub" class="sub">A collection of my original artworks</p></div>
+      <div id="gallery-extras"></div>
+      <div class="toolbar">
+        <div id="filters" class="filters" role="tablist" aria-label="Artwork categories"></div>
+        <label class="search"><span class="sr">Search artwork</span><input id="search" type="search" placeholder="Search artwork…" autocomplete="off"></label>
+      </div>
+      <div id="grid" class="grid" aria-live="polite"><div class="loading">Loading artwork…</div></div>
+      <div class="center"><button id="more" class="btn btn-ghost" hidden>Load more</button></div>
+    </div>
+  </section>
+
+  <section id="commissions" class="section" aria-labelledby="commissions-h" hidden>
+    <div class="wrap">
+      <div class="sec-head"><h2 id="commissions-h">Commission Work</h2><p id="commissions-sub" class="sub">Special pieces I created for my clients</p></div>
+      <div id="commission-grid" class="grid"></div>
+      <div class="center"><a class="btn btn-primary" href="#contact">Order your own piece</a></div>
+    </div>
+  </section>
+
+  <section id="services" class="section alt" aria-labelledby="services-h" hidden>
+    <div class="wrap">
+      <div class="sec-head"><h2 id="services-h">Services</h2></div>
+      <div id="services-grid" class="grid grid-sm"></div>
+    </div>
+  </section>
+
+  <section id="products" class="section" aria-labelledby="products-h" hidden>
+    <div class="wrap">
+      <div class="sec-head"><h2 id="products-h">Products</h2></div>
+      <div id="products-grid" class="grid grid-sm"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt" aria-labelledby="contact-h">
+    <div class="wrap">
+      <div class="sec-head"><h2 id="contact-h">Contact &amp; Commission Request</h2><p id="contact-sub" class="sub">Want a painting made just for you? Fill in the details below.</p></div>
+      <div class="contact">
+        <div class="contact-side">
+          <ul id="contact-list" class="contact-list"></ul>
+          <div class="contact-actions"><a id="wa-btn" class="btn btn-primary" href="#" hidden>WhatsApp enquiry</a><a id="form-btn" class="btn btn-ghost" href="#" hidden>Open contact form</a></div>
+          <ul id="social" class="social" aria-label="Social media"></ul>
+          <a class="btn btn-gold js-register side-register" href="#" hidden>REGISTER NOW</a>
+        </div>
+        <form id="commission-form" class="form" novalidate>
+          <div class="form-grid">
+            <label>Full Name *<input name="name" required maxlength="100" autocomplete="name"></label>
+            <label>Email *<input name="email" type="email" required maxlength="150" autocomplete="email"></label>
+            <label>Phone / WhatsApp<input name="phone" type="tel" maxlength="40" autocomplete="tel"></label>
+            <label>City<input name="city" maxlength="80" autocomplete="address-level2"></label>
+            <label>Type of Painting<select name="painting_type" id="f-type"></select></label>
+            <label>Size<select name="size" id="f-size"></select></label>
+            <label>Budget (₹)<input name="budget" inputmode="numeric" maxlength="30"></label>
+            <label>Needed By<input name="needed_by" type="date" id="f-date"></label>
+          </div>
+          <label>Tell me your idea *<textarea name="idea" id="f-idea" rows="5" required maxlength="3000"></textarea></label>
+          <label>Reference photo (optional, max 3 MB)<input name="reference" id="f-ref" type="file" accept="image/jpeg,image/png,image/webp"></label>
+          <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn btn-primary btn-big" type="submit">Send Request</button>
+          <p id="form-status" class="form-status" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <strong id="footer-brand">Arté By Ayesha</strong><p id="footer-text"></p>
+        <ul id="footer-social" class="social small" aria-label="Social media"></ul>
+        <button class="btn btn-ghost btn-sm js-install" type="button" hidden>Install app</button>
+      </div>
+      <div id="footer-cols" class="footer-cols"></div>
+    </div>
+    <p id="copyright" class="copyright"></p>
+  </div>
+</footer>
+
+<div id="reg-bar" class="reg-bar" hidden><a class="btn btn-gold btn-big js-register" href="#" hidden>REGISTER NOW</a></div>
+<div id="toast" class="toast" role="status" hidden></div>
+
+<div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="m-title" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-card">
+    <button class="modal-close" data-close aria-label="Close">&times;</button>
+    <button class="modal-nav prev" id="m-prev" aria-label="Previous artwork">&#8249;</button>
+    <button class="modal-nav next" id="m-next" aria-label="Next artwork">&#8250;</button>
+    <div class="modal-img"><img id="m-img" alt=""></div>
+    <div class="modal-info">
+      <p id="m-cat" class="eyebrow"></p>
+      <h3 id="m-title"></h3>
+      <p id="m-desc" class="m-desc"></p>
+      <dl id="m-meta" class="meta"></dl>
+      <a id="m-enquire" class="btn btn-primary" href="#contact">Enquire about this artwork</a>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/navigation.js"></script>
+<script src="assets/js/gallery.js"></script>
+<script src="assets/js/pwa.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

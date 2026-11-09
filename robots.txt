@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+
+# CONFIG: replace with your real GitHub Pages address
+Sitemap: https://YOUR-GITHUB-USERNAME.github.io/arte-by-ayesha/sitemap.xml

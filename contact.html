@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Contact – Arté By Ayesha</title>
+<meta name="description" content="Contact Arté By Ayesha for handmade paintings, custom commissions, collaborations and feedback.">
+<meta name="theme-color" content="#0d070e">
+<link rel="icon" href="assets/images/favicon-64.png">
+<link rel="stylesheet" href="assets/contact/contact.css">
+</head>
+<body>
+<a class="skip" href="#form">Skip to the form</a>
+<header class="top">
+  <a class="brand" id="homeLink" href="index.html"><img src="assets/images/logo-small.png" alt="" width="40" height="40"><span>Arté <em>By Ayesha</em></span></a>
+  <a class="back" id="backLink" href="index.html">&larr; Back to website</a>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <p class="eyebrow">Contact</p>
+    <h1>Let's create something together</h1>
+    <p class="lead" id="tagline">Where colours speak the words the heart can't say.</p>
+    <p class="muted">Tell us what you need and we will reply within <b id="replyWithin">24 hours</b>. Fields marked <span class="req">*</span> are required.</p>
+    <a id="waTop" class="wa" href="#" hidden>Chat on WhatsApp</a>
+  </section>
+
+  <div id="notice" class="notice" role="status" hidden></div>
+
+  <form id="form" novalidate autocomplete="on">
+    <!-- honeypot: real people never see or fill this -->
+    <div class="hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+
+    <fieldset class="card">
+      <legend><span class="n">1</span> About you</legend>
+      <div class="grid" id="fsAbout"></div>
+    </fieldset>
+
+    <fieldset class="card">
+      <legend><span class="n">2</span> What can we help you with? <span class="req">*</span></legend>
+      <div class="types" id="types" role="radiogroup" aria-label="Enquiry type"></div>
+      <p class="err" data-err="type"></p>
+    </fieldset>
+
+    <fieldset class="card" id="fsDetails" hidden>
+      <legend><span class="n">3</span> <span id="detailsTitle">Details</span></legend>
+      <p class="hint" id="detailsHint"></p>
+      <div class="grid" id="fsDynamic"></div>
+    </fieldset>
+
+    <fieldset class="card" id="fsFinal">
+      <legend><span class="n" id="finalN">3</span> Almost done</legend>
+      <div class="grid" id="fsEnd"></div>
+    </fieldset>
+
+    <div class="actions">
+      <button class="btn" id="send" type="submit">Send message</button>
+      <p class="muted small">Prefer chatting? <a id="waBottom" href="#" hidden>WhatsApp us</a><span id="gfWrap" hidden> or <a id="gfLink" href="#" target="_blank" rel="noopener">use the Google Form</a></span>.</p>
+    </div>
+    <p class="err big" id="formErr" role="alert"></p>
+  </form>
+
+  <section id="done" class="card done" hidden tabindex="-1">
+    <div class="tick" aria-hidden="true">✓</div>
+    <h2>Thank you, <span id="doneName"></span>!</h2>
+    <p>Your message has reached Arté By Ayesha. We will reply within <b class="rw"></b> by <b id="doneMethod"></b>.</p>
+    <p class="muted">A confirmation with your Enquiry ID is e-mailed to <b id="doneEmail"></b> (check Spam if you don't see it).</p>
+    <p><a id="waDone" class="wa" href="#" hidden>Send reference photos on WhatsApp</a></p>
+    <p><button class="btn ghost" id="again" type="button">Send another message</button></p>
+  </section>
+</main>
+
+<footer class="foot">© <span id="year"></span> Arté By Ayesha · Handmade paintings and custom commissions by Ayesha Parveen</footer>
+<script src="assets/contact/config.js"></script>
+<script src="assets/contact/contact.js"></script>
+</body>
+</html>
